@@ -16,7 +16,7 @@ public class BreadthFirstSearchTest {
     public void setup() {
         int[] tree = {3, 5, 2, 1, 4, 6, 7};
 
-        Node root = null;
+
         for(int i = 0; i < tree.length; i++) {
             root = insert(root, tree[i]);
         }
